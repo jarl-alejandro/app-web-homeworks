@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+
+  --primary: #607D8B;
+  --primaryDark: #37474F;
+  --primaryText: rgba(255, 255, 255, 0.87);
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--primaryText);
+  background-color: var(--primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+}
+
+table{
+  background: var(--primaryDark);
+}
+th, td {
+  color: var(--primaryText) !important;
+}
