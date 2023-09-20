@@ -1,0 +1,40 @@
+.board {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    min-width: 270px;
+    max-width: 270px;
+    background: #161a1d;
+    border-radius: 6px;
+    box-shadow: 4px 0px 5px 1px #191e24;
+}
+
+.column-title {
+    padding: 1rem;
+    text-align: center;
+}
+
+.column-list {
+    padding: 8px;
+    flex-grow: 1;
+    min-height: 100px;
+    transition: background-color ease 0.2s;
+}
+
+.task {
+    margin-bottom: 8px;
+    border-radius: 6px;
+    padding: 0.85rem;
+    cursor: pointer;
+    background-color: #22272b;
+    box-shadow: 1px -1px 1px 0 #1d2125;
+}
+
+.task.dragging {
+    background-color: lightgreen;
+}
